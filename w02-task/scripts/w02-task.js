@@ -31,11 +31,11 @@ const favoriteFoods = ['Steak', 'Fried Chicken', 'Red Velvet Cheesecake', 'Salte
 foodElement.innerHTML = favoriteFood;
 const otherFood = ['Mac & Cheese'];
 foodElement.push(otherFood);
-foodElement.innerHTML += `<br>${favoriteFoods}`;
-favoriteFoods.shift()
-foodElement.innerHTML += `<br>${favoriteFoods}`;
-favoriteFoods.pop()
-foodElement.innerHTML += `<br>${favoriteFoods}`;
+foodElement.innerHTML += `<br>${favoriteFoods}</br>`;
+favoriteFoods.shift();
+foodElement.innerHTML += `<br>${favoriteFoods}</br>`;
+favoriteFoods.pop();
+foodElement.innerHTML += `<br>${favoriteFoods}</br>`;
 
 
 
